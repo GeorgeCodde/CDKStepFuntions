@@ -1,0 +1,10 @@
+@url = https://7568353hki.execute-api.us-east-1.amazonaws.com/prod?id=5
+POST  {{url}}
+content-type: application/json
+
+ {
+   "status": "SUCCESS" ,
+   "input": "Prueba" ,
+    "triggerTime": 10
+ }
+###
